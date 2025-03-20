@@ -1,4 +1,4 @@
-n = int(input('Digite um valor:'))
+n = int(input('Digite um valor, sendo ele de 0 a 10:'))
 if n < 10:
     r = n * 0
     print(n,'* 0 =',r)
