@@ -1,0 +1,2 @@
+A lista 2 é a lista 1.
+Lista 1 fizemos um fluxograma e na lista 2 foi o fluxograma em código(Neste caso, deixei lista 1, mas os dois são o mesmo).
