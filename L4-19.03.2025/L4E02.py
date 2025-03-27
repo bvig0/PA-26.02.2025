@@ -1,3 +1,5 @@
+# Elabore um algoritmo que leia dois números, some cinco ao de menor valor, compare os dois valores e mostre o maior
+
 x = int(input('Digite um valor:'))
 y = int(input('Digite outro valor:'))
 if x > y:
