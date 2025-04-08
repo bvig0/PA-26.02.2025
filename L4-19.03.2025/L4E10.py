@@ -6,16 +6,12 @@ if n1 > n2:
     n2 = n2 * 10
     n1 = n1 / 2
     n1 = n2 + n1
-    if n1 == par:
-        print('O resultado é par')
-    else:
-        print('O resultado é impar')
-
 else:
     n1 = n1 * 10
     n2 = n2 / 2
     n1 = n2 + n1
-    if n1 == par:
-        print('O resultado é par')
-    else:
-        print('O resultado é impar')
+
+if n1 % 2 == 0:
+    print('O resultado é par')
+else:
+    print('O resultado é impar')
