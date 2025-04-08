@@ -5,21 +5,17 @@ y = int(input('Digite outro valor:'))
 z = int(input('Digite mais um valor:'))
 if x > y:
     if y > z:
-        z = z + 5
-        print(z)
+        x = z + 5
     else:
-        y = y + 5
-        print(y)
+        x = y + 5
 
 else:
     if x > z:
-        z = z + 5
-        print(z)
+        x = z + 5
     else:
         x = x + 5
-        print(x)
 
-
+print(x)
 
     
 

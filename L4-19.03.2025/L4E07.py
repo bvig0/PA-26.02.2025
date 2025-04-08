@@ -3,22 +3,30 @@
 x = int(input('Digite um valor:'))
 y = int(input('Digite outro valor:'))
 z = int(input('Digite mais um valor:'))
-if x > y:
-    if y > z:
-        print(z)
-        print(y)
+if x < y:
+    if x < z:
         print(x)
+        if y < z:
+            print(y)
+            print(z)
+        else:
+            print(z)
+            print(y)
     else:
-        print(y)
         print(z)
         print(x)
+        print(y)
 
 else:
-    if x > z:
-        print(z)
-        print(x)
+    if y < z:
         print(y)
+        if x < z:
+            print(x)
+            print(z)
+        else:
+            print(z)
+            print(x)
     else:
-        print(x)
-        print(y)
         print(z)
+        print(y)
+        print(x)
